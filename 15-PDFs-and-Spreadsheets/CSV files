@@ -1,0 +1,15 @@
+import csv
+pwd
+
+# open file
+data = open('example.csv',encoding='utf-8')
+
+# csv.reader
+csv_data = csv.reader(data)
+
+# reformat in into a python obj list of lists
+data_lines = list(csv_data)
+# @ (emails) might be making an error if you cont use the special latin encoding
+# add data = open('example.csv,encoding='unf-8)
+
+data_lines
